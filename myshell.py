@@ -63,17 +63,7 @@ class Shell(cmd.Cmd):
          print(name)
 
          
-   def do_echo(self,echo):
-      """Displays messages or turns on or off the command echoing feature. If used without parameters, echo displays the current echo setting."""
-      
-      if echo == "":
-         print("ECHO is on")
-         #new line
-         print()
-      else:
-         print(echo)
-         #new line
-         print()
+   
    def do_environ(self,env):
       "List all the enviroment variables."
       # listing all the enviroment variables using a dictionary.
