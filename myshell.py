@@ -1,4 +1,4 @@
-# created for the CMD module for windows,Valentin Monar ca 16727505
+
 from os import system, name
 import subprocess
 import os
