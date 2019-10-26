@@ -1,4 +1,4 @@
-
+""" To run the file,open cmd, type python myshell.py"""
 from os import system, name
 import subprocess
 import os
@@ -105,7 +105,9 @@ class Shell(cmd.Cmd):
 
 if __name__ == '__main__':
     prompt = Shell()
+    #the path will get your current working directory
     path = os.getcwd()
+    
     prompt.prompt = path  + ">"
     prompt.cmdloop("Starting prompt. . .")
     
